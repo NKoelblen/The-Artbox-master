@@ -18,7 +18,7 @@
                     <a href="<?php echo "oeuvre.php?id=" . $oeuvre['id'] ?>">
                         <img src="img/<?php echo $oeuvre['img-oeuvre'] ?>" alt="<?php echo $oeuvre['title'] ?>">
                         <h2><?php echo $oeuvre['title'] ?></h2>
-                        <p class="description\"><?php echo $oeuvre['description'] ?></p>
+                        <p class="description"><?php echo $oeuvre['description'] ?></p>
                     </a>
                 </article>
             <?php endforeach ?>

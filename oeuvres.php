@@ -104,6 +104,6 @@
             'title' => 'Blaue Gelbe Muster',
             'description' => 'Adelheid Von Schreiber',
             'description-complete' => "Curabitur dui odio, porta vel tempor sed, consectetur vitae mi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Orci varius natoque penatibus nec."
-        ]
+        ],
     ]
 ?>

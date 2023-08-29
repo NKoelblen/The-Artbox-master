@@ -1,19 +1,20 @@
 <!doctype html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/style.css">
     <title>The ArtBox</title>
 </head>
+
 <body>
-    <?php require('header.php') ?>
+    <?php require 'header.php' ?>
     <main>
         <div id="liste-oeuvres">
-            <?php require('oeuvres.php');
-            foreach($oeuvres as $oeuvre) : ?>
+            <?php require 'oeuvres.php';
+            foreach ($oeuvres as $oeuvre) : ?>
                 <article class="oeuvre">
                     <a href="<?php echo "oeuvre.php?id=" . $oeuvre['id'] ?>">
                         <img src="img/<?php echo $oeuvre['img-oeuvre'] ?>" alt="<?php echo $oeuvre['title'] ?>">
@@ -24,6 +25,7 @@
             <?php endforeach ?>
         </div>
     </main>
-    <?php require('footer.php') ?>
+    <?php require 'footer.php' ?>
 </body>
+
 </html>
